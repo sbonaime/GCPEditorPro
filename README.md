@@ -1,6 +1,6 @@
-# GCP Editor Pro
+# GCP Editor Pro ©
 
-Amazingly Fast and Simple Ground Control Points Interface for [OpenDroneMap](https://opendronemap.org) software.
+Amazingly Fast and Simple Ground Control Points Interface for [OpenDroneMap](https://opendronemap.org) software. [Try it online](https://gcp.uav4geo.com)!
 
 ![image](https://user-images.githubusercontent.com/1951843/80494281-7e63dd00-8934-11ea-9176-75e37db5bb97.png)
 
@@ -58,8 +58,6 @@ dist.bat
 # Linux/Mac
 ./dist.sh
 ```
-
-But note that you'll need to modify the storage service's `getLicense` method (around https://github.com/uav4geo/GCPEditorPro/blob/master/src/app/storage.service.ts#L53) to return always return a `DevLicense` if you want to remove the licensing dialogs.
 
 Results will be stored in the `dist/` folder.
 
